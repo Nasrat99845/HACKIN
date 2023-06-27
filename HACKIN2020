@@ -112,9 +112,7 @@ logo = (f"""{GREEN}
 ## ## ## ##     ##  ######  ########  ##     ##    ##    
 ##  #### #########       ## ##   ##   #########    ##    
 ##   ### ##     ## ##    ## ##    ##  ##     ##    ##    
-##    ## ##     ##  ######  ##     ## ##     ##    ##    
-
-                             
+##    ## ##     ##  ######  ##     ## ##     ##    ##       
 33[1;32m𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 NASRAT-TECH
 \33[1;34m✨↦↦↦↦↦✨↦↦↦↦↦✨↦↦↦↦↦✨↦↦↦↦↦✨
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mMADE BY     : NASRAT
@@ -185,8 +183,8 @@ def login():
 	os.system("figlet -ct PASSOWRD|lolcat")
 	print(line)
 	print("")
-	u = 'Rifat'
-	p = 'M.M.R'
+	u = 'NASRAT'
+	p = 'HACKIN'
 	user = input(f"{RED}ENTER USERNAME => ")
 	pas = input("ENTER PASSWORD => ")
 	if user == u and pas == p:
